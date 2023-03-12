@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
                         color: Color(0xFFF2BEA1), shape: BoxShape.circle),
                     child: SvgPicture.asset('assets/icons/menu.svg'),
                   ),
-                ),
+                ), 
                 Container(
                   alignment: Alignment.centerLeft,
                   child: Text('Good Morning \n Sathish',
