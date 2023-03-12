@@ -8,6 +8,7 @@ import 'login.dart';
 import 'register.dart';
 import ' home.dart';
 import 'home-detail.dart';
+import 'plant-home.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -24,14 +25,14 @@ class MyApp extends StatelessWidget {
     FlutterNativeSplash.remove();
     return MaterialApp(
       title: 'Flutter Demo1',
-      initialRoute: "home",
-      home: Login(),
+      initialRoute: "plant-home",
       routes: {
         'profile':(context)=>Profile(),
         'login':(context)=>Login(),
          'register':(context)=>Register(),
          'home':(context)=>Home(),
          'home-detail':(context)=>HomeDetail(),
+          'plant-home':(context)=>PlantHome(),
       },
       theme: ThemeData(
         fontFamily: "Roboto",

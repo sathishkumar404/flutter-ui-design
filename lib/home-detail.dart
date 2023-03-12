@@ -27,6 +27,7 @@ class _HomeDetailState extends State<HomeDetail> {
                   alignment: Alignment.centerLeft,
                   image: AssetImage("assets/images/meditation_bg.png"),
                   fit: BoxFit.fitWidth),
+
             ),
           ),
           SafeArea(
